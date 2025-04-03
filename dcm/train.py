@@ -195,7 +195,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--num_classes', type=int, default=4)
     parser.add_argument('--seed', type=int, default=21)
-    parser.add_argument('--epochs', type=int, default=60)
+    parser.add_argument('--epochs', type=int, default=200)
     parser.add_argument('--warmup_epochs', type=int, default=10)
     parser.add_argument('--batch_size', type=int, default=6)
     parser.add_argument('--lr', type=float, default=0.004)

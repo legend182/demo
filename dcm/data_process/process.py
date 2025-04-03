@@ -10,7 +10,7 @@ modalities = ('flair', 't1ce', 't1', 't2')
 train_set = {
         'root': '../../../autodl-fs',  # 四个模态数据所在地址
         'out': '../data/BraTS_data/',  # 预处理输出地址
-        'flist': '../train.txt',  # 训练集名单（有标签）
+        'flist': '../train.txt',  # 所有数据名单（有标签）
         }
 
 

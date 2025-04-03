@@ -26,7 +26,6 @@ early_stopping_patience = 50
 random_number = random.randint(1000, 9999)
 random_str = f"{random_number:04d}"
 pretrain = False
-# task_name = 'MoNuSeg' 
 task_name = 'Covid19'
 learning_rate = 3e-4 # MoNuSeg: 1e-3, Covid19: 3e-4
 batch_size = 24  
